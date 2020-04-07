@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CacheController">
+   <children>
+      <Button layoutX="14.0" layoutY="1.0" mnemonicParsing="false" onAction="#save" text="save" />
+      <Button layoutX="83.0" layoutY="1.0" mnemonicParsing="false" onAction="#setClipboard" text="get" />
+      <Button layoutX="144.0" layoutY="1.0" mnemonicParsing="false" onAction="#clear" text="clear" />
+      <TextArea fx:id="text" layoutY="33.0" prefHeight="147.0" prefWidth="200.0" text="let me checklet me checklet me checklet me checklet me checklet me checklet me checklet me checklet me checklet me checklet me checklet me checklet me checklet me let me checklet me checklet me checklet me checklet me checklet me checkchecklet me check" wrapText="true" />
+   </children>
+</AnchorPane>

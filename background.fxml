@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Button layoutX="10.0" layoutY="1.0" mnemonicParsing="false" onAction="#loadCache1" text="1" />
+      <Button layoutX="50.0" layoutY="1.0" mnemonicParsing="false" onAction="#loadCache2" text="2" />
+      <Button layoutX="90.0" layoutY="1.0" mnemonicParsing="false" onAction="#loadCache3" text="3" />
+      <Button layoutX="130.0" layoutY="1.0" mnemonicParsing="false" onAction="#loadCache4" text="4" />
+      <Button layoutX="170.0" layoutY="1.0" mnemonicParsing="false" onAction="#loadCache5" text="5" />
+      <Button layoutX="27.0" layoutY="223.0" mnemonicParsing="false" onAction="#openLogin" text="log in" />
+      <Button layoutX="115.0" layoutY="223.0" mnemonicParsing="false" onAction="#sync" text="sync" />
+      <AnchorPane fx:id="holderPane" layoutY="35.0" prefHeight="180.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
